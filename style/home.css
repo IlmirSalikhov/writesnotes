@@ -1,0 +1,108 @@
+.container {
+    display: block;
+    background-color: #d2d1d1;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
+.home-image {
+    display: inline-block;
+    width: 430px;
+    height: 100vh;
+    margin-top: 20vh;
+    transition: all 1s;
+}
+.home-fon-image {
+    width: 430px;
+    transition: all 1s;
+}
+.active-window {
+    width: 570px;
+    float: right;
+    max-height: 50px;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    margin-top: all 1vh;
+}
+.site-name {
+    color: #343232;
+    font-size: 80px;
+    transition: all 1s;
+}
+.slogan {
+    color: #343232;
+    font-size: 45px;
+    transition: all 1s;
+}
+.site-info {
+    color: #343232;
+    font-size: 24px;
+    transition: all 1s;
+}
+.btn-home-reg {
+    width: 220px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+}
+.btn-home-reg:hover {
+    background: #343232;
+    border: 2px solid #343232;
+    color: #d2d1d1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn-home-reg:active {
+    border: 2px solid #d2d1d1;
+}
+@media (max-width: 1024px) {
+    .home-image {
+        display: none;
+    }
+    .active-window {
+        width: 100%;
+        max-height: 50px;
+        margin: auto;
+        text-align: center;
+        height: 100vh;
+        margin-top: 2vh;
+        transition: all 1s;
+    }
+}
+@media (max-width: 863px) {
+    html, body {
+        overflow:scroll;
+        background-image: none;
+    }
+    .site-name {
+        color: #343232;
+        font-size: 50px;
+    }
+    .slogan {
+        color: #343232;
+        font-size: 35px;
+    }
+    .site-info {
+        color: #343232;
+        font-size: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .site-name {
+        color: #343232;
+        font-size: 40px;
+    }
+    .slogan {
+        color: #343232;
+        font-size: 30px;
+    }
+    .site-info {
+        color: #343232;
+        font-size: 15px;
+    }
+}

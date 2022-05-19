@@ -1,0 +1,32 @@
+.container {
+    display: block;
+    background-color: #d2d1d1;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
+.library-block {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.h-library-block {
+    display: block;
+    font-size: 20px;
+    margin: 20px auto 0 auto;   
+}
+.profile-library {
+    max-width: 930px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.new-library {
+    max-width: 930px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+

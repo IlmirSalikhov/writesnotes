@@ -1,0 +1,7 @@
+.container {
+    display: block;
+    background-color: #d2d1d1;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}

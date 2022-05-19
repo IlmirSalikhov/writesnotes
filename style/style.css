@@ -1,0 +1,41 @@
+@import url(header.css);
+@import url(home.css);
+@import url(login.css);
+@import url(register.css);
+@import url(recovery.css);
+@import url(profile.css);
+@import url(library.css);
+@import url(book-box.css);
+@import url(newbook.css);
+@import url(multicheckbox.css);
+@import url(book-profile.css);
+@import url(search.css);
+@import url(author.css);
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #d2d1d1;
+    background-image: url(/image/fon-icon.png);
+    background-repeat: repeat;
+    background-size: 300px;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    overflow: hidden;
+    color: #343232;
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@media (max-width: 863px) {
+    html, body {
+        overflow: scroll;
+    }
+}
+
+

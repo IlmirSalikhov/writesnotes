@@ -1,0 +1,68 @@
+.book-box {
+    display: inline-block;
+    width: 200px;
+    height: 210px;
+    background-image: url(../image/book-20.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 15px 10px 15px;
+    outline: 2px solid #343232;
+}
+.book-box:hover {
+    margin: 8px 13px 8px 13px;
+    border: 2px solid #343232;
+    cursor: pointer;
+}
+.author-name {
+    font-size: 12px;
+}
+.book-name {
+    font-size: 15px;
+}
+.book-genus {
+    font-size: 13px;
+}
+.book-kind {
+    font-size: 12px;
+}
+.book-genre {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.date {
+    display: inline;
+    float: right;
+    margin: 10px 25px auto auto;
+    font-size: 10px;
+}
+.age-limit {
+    display: inline;
+    float: left;
+    margin: 10px auto auto 25px;
+    font-size: 10px;
+}
+.new-book-box {
+    display: inline-block;
+    width: 200px;
+    height: 210px;
+    background-image: url(../image/new-book-20.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 15px 10px 15px;
+    outline: 2px solid #343232;
+}
+.new-book-box:hover {
+    margin: 8px 13px 8px 13px;
+    border: 2px solid #343232;
+    cursor: pointer;
+}
+.new-book-h2 {
+    margin: 40px auto;
+    font-size: 15px;
+}
+.new-book-h4 {
+    margin: 73px auto;
+    font-size: 10px;
+}

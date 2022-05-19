@@ -1,0 +1,123 @@
+.multicheckbox {
+    display: inline-block;
+    user-select: none;
+}
+.multicheckboxblock {
+    display: inline-block;
+    margin-left: 4px;
+}
+.multicheckbox-label {
+    display: grid;
+    font-size: 15px;
+    font-family: Roboto-Medium;
+    margin-bottom: 20px;
+}
+select {
+    /* width: 210px; */
+    min-width: 188px;
+    height: 34px;
+    padding-left: 5px;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: gray;
+    font-size: 18px;
+    font-family: Roboto-Medium;
+    outline: none;
+    pointer-events: none;
+}
+#genreList select {
+    min-width: 203px;
+}
+#ageRestriction select {
+    min-width: 64px;
+}
+.select-list {
+    display: none;
+    max-height: 300px;
+    background-color: #fff;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 159px;
+    overflow: auto;
+}
+.checkbox-standart {
+    display: flex;
+    user-select: none;
+}
+.genus-checkbox {
+    /* position: absolute;
+    z-index: -1;
+    opacity: 0; */
+    margin-right: 5px;
+}
+.checkbox-standart .genus-checkbox::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #343232;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+.checkbox-standart .genus-checkbox:checked::before {
+    background-image: url(../image/checkbox-marker.png);
+    background-size: 100%;
+}
+#epicTypeList {
+    display: none;
+}
+#lyricsTypeList {
+    display: none;
+}
+#dramaTypeList {
+    display: none;
+}
+#lyroepicTypeList {
+    display: none;
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+@media (max-width: 992px) {
+    .multicheckbox {
+        float: left;
+        margin: 10px 0 0 10px;
+    }
+    .multicheckboxblock {
+        margin: 0;
+    }
+    .select-list {
+        top: 203px;
+    }
+}
+@media (max-width: 863px) {
+    .container {
+        overflow: auto;
+    }
+    @media (max-width: 704px) {
+        .multicheckbox {
+            margin-left: 5px;
+        }
+    }
+    @media (max-width: 697px) {
+        .multicheckboxblock {
+            float: left;
+            margin-right: 4px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

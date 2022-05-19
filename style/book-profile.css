@@ -1,0 +1,85 @@
+.container {
+    display: block;
+    background-color: #d2d1d1;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
+.book-profile-block {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.book-profile-info {
+    text-align: left;
+    font-size: 15px;
+    width: 95%;
+    margin: auto;
+}
+.book-profile-info h4 {
+    margin: 0px auto 10px auto;
+}
+.text-block {
+    border: #000 solid 1px;
+    overflow: scroll;
+    width: 95%;
+    margin: auto auto 10px;
+    height: 300px;
+}
+.score-block {
+    float: right;
+}
+.like {
+    display: inline-block;
+    margin-right: 50px;
+}
+.dislike {
+    display: inline-block;
+    margin-right: 50px;
+}
+.like-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../image/like-nonactive.png);
+    cursor: pointer;
+}
+.like-label:hover {
+    background-image: url(../image/like-active.png);
+}
+.dislike-label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../image/dislike-nonactive.png);
+    cursor: pointer;
+}
+.dislike-label:hover {
+    background-image: url(../image/dislike-active.png);
+}
+.like-checkbox {
+    display: block;
+}
+.dislike-checkbox {
+    display: block;
+}
+.like-int {
+    display: inline-block;
+}
+.dislike-int {
+    display: inline-block;
+}
+.like-label-active {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../image/like-active.png);
+    cursor: pointer;
+}
+.dislike-label-active {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../image/dislike-nactive.png);
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+.btn-recovery_1 {
+    width: 205px;
+    height: 35px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-recovery_1:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-recovery_1:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-recovery_2 {
+    width: 205px;
+    height: 35px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-recovery_2:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-recovery_2:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-recovery_3 {
+    width: 205px;
+    height: 35px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-recovery_3:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-recovery_3:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-recovery-back {
+    width: 95px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-recovery-back:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-recovery-back:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-recovery-cancel {
+    width: 95px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-recovery-cancel:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-recovery-cancel:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}

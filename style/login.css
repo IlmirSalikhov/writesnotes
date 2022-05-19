@@ -1,0 +1,139 @@
+.container {
+    display: block;
+    background-color: #d2d1d1;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
+.login-block {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.login-block h2, .login-block p {
+    max-width: 550px;
+    text-align: center;
+    margin: 20px auto;
+}
+.login-form {
+    display: inline-block;
+}
+.login-input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #343232;
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    margin: auto;
+}
+.login-input:focus{
+    outline: none;
+}
+.btn-login {
+    width: 110px;
+    height: 35px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-login:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-register-content {
+    width: 192px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-register-content:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.4s;
+}
+.btn-register-content:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.btn-register {
+    width: 205px;
+    height: 35px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #343232;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-register:hover {
+    background: #343232;
+    border: 1px solid #343232;
+    border-radius: 5px;
+    color: #d2d1d1;
+    transition: 0.3s;
+}
+.btn-register:active {
+    border: 1px solid #d2d1d1;
+    border-radius: 5px;
+}
+.password-recover-text a {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+.password-recover-text {
+    font-size: 15px;
+}
+.msg-e {
+    background-color: red;
+    width: 350px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #d2d1d1;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.error-input {
+    border: 1px solid red;
+}
+.none {
+    display: none;
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 863px) {
+    .container {
+        overflow: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
